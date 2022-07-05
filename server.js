@@ -41,7 +41,7 @@ const port = process.env.PORT || 5000;
 
   try {
     // connecting to mongodb via standard port 27017
-    app.locals.dbConnection = await mongodb.MongoClient.connect('mongodb://localhost:27017', {
+    app.locals.dbConnection = await mongodb.MongoClient.connect('mongodb://mongo:27017', {  //hier auch mongo anstelle von localhost, weil wir nicht mehr local darauf zugreifen können
       useNewUrlParser: true
     });
     // defining what collection to use (here: locations, which will automatically be created by mongoDB and can be inspected locally via MongoDBCompass)
@@ -120,4 +120,6 @@ app.put('/update-input', (req, res) => {
 // listen on port 5000
 app.listen(port,
   () => console.log(`Example app
-      listening at http://localhost:${port}`));
+      listening at http://mongo:${port}`));
+      //listening at http://localhost:${port}`));
+      
