@@ -1,0 +1,18 @@
+{
+  "name": "aufgabe6",
+  "version": "1.0.0",
+  "description": "</strong></h1>Aufgabe 6</strong></h1>\r <h4>Authors:  Jonathan Mader, matr.Nr.: 502644 - Erkam Dogan, matr.Nr.: 508236 -  Kieran Galbraith, matr.Nr.: 453493</h4>",
+  "main": "serverstart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0",
+    "mongodb": "^4.7.0",
+    "nodemon": "^2.0.18"
+  }
+}
