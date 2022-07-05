@@ -1,5 +1,5 @@
 </strong></h1>Aufgabe 6</strong></h1>
-<h4>Authors:  Jonathan Mader, matr.Nr.: 502644 - Erkam Dogan, matr.Nr.: 508236 -  Kieran Galbraith, matr.Nr.: 453493</h4>
+<h4>Authors:  Jonathan Mader, matr.Nr.: 502644 - Erkam Dogan, matr.Nr.: 508236</h4>
 
 Our files for the 6th Assignment of the Geosoftware 1 course
 
@@ -16,17 +16,6 @@ or deleted when they are stored in the mongoDB.
 
 For the forward geocoding you need a MapBox access Token at var access_token = "access Token" in /public/locationcreationmap
 
-Also, due to the large size of node_modules we did not upload them. Instead, if you clone the whole Geosoftware-1 repository you have to go to the terminal in VS-Code.<br>
-To change the path to the Aufgabe6 folder type "cd Aufgabe6"
-Then type "npm init" and confirm everything.
-After that type "npm install package.json"
+Also, due to the large size of node_modules we did not upload them. Instead, if you clone the repository you have to go to the terminal in VS-Code.<br>
 
-If the two steps above were successfull, you need to install <br>
-express <br>
-mongodb <br>
-body-parser <br>
-jquery <br>
-for the app to work with "npm install ..."
-
-To start the server, you then need to type: nodemon serverstart.js or nodemon start and then STRG+Click on the http://localhost:5000 url (given that node is installed and nodemon is set up)
 
