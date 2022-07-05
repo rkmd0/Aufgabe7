@@ -1,4 +1,4 @@
-</strong></h1>Aufgabe 6</strong></h1>
+</strong></h1>Aufgabe 7</strong></h1>
 <h4>Authors:  Jonathan Mader, matr.Nr.: 502644 - Erkam Dogan, matr.Nr.: 508236</h4>
 
 Our files for the 6th Assignment of the Geosoftware 1 course
@@ -16,20 +16,13 @@ or deleted when they are stored in the mongoDB.
 
 For the forward geocoding you need a MapBox access Token at var access_token = "access Token" in /public/locationcreationmap
 
-VS-Code Terminal:
+To start the application go to the terminal of your IDE and type the command
+$ docker-compose up
 
-$ npm init and confirm everything.
-After that 
-$ npm install package.json"
+It will then take a while to download the services but after a few moments you are able to access mono-express at 
+http://localhost:8081/
 
-If the two steps above were successfull, you need to install <br>
-express <br>
-mongodb <br>
-body-parser <br>
-jquery <br>
-for the app to work with 
-$ npm install ...
-
-This will add the dependencies needed for the app to the package.json file which is needed later for the Dockerfile
+and the html websites at 
+http://localhost:5000/
 
 
