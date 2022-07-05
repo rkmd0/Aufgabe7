@@ -18,4 +18,18 @@ For the forward geocoding you need a MapBox access Token at var access_token = "
 
 VS-Code Terminal:
 
+$ npm init and confirm everything.
+After that 
+$ npm install package.json"
+
+If the two steps above were successfull, you need to install <br>
+express <br>
+mongodb <br>
+body-parser <br>
+jquery <br>
+for the app to work with 
+$ npm install ...
+
+This will add the dependencies needed for the app to the package.json file which is needed later for the Dockerfile
+
 
