@@ -15,7 +15,8 @@ services:
     ports:
       - '27017:27017'
     volumes:
-      - ./mongo-volume:/data/db
+      - ./mongo-init/:/docker-entrypoint-initdb.d/:ro
+      #- ./mongo-volume:/data/db
 
   mongoexpressservice: 
     image: mongo-express # image retrieved from docker hub
